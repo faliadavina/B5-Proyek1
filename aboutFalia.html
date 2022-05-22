@@ -1,0 +1,315 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>B5 - Software Engineering</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link href="assets/img/logo/logo.png" rel="icon"> 
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+
+   <body>
+       
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+
+    <header>
+        <!-- Header Start -->
+       <div class="header-area header-transparrent ">
+            <div class="main-header header-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                               <a href="index.html"><img src="assets/img/logo/logo.png" alt="" width="100" height="100"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 col-md-8">
+                            <!-- Main-menu -->
+                            <div class="main-menu f-right d-none d-lg-block">
+                                <nav> 
+                                    <ul id="navigation">    
+                                        <li><a href="index.html"> Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="#">Portofolio</a>
+                                        <ul class="submenu">
+                                                <li><a href="aboutFalia.html">Falia Davina</a></li>
+                                                <li><a href="single-blog.html">Helsa Alika</a></li>
+                                                <li><a href="blog.html">Mentari Alysia</a></li>
+                                                <li><a href="single-blog.html">Rafi Farhan</a></li>
+                                                <li><a href="blog.html">Rofa'ul Akrom</a></li>
+                                                <li><a href="single-blog.html">Yasmin Azizah</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="chart.html">Data Visualization</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>             
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <div class="header-right-btn f-right d-none d-lg-block">
+                                <a href="#" class="btn header-btn">Contact Us</a>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!-- Slider Area Start-->
+        <div class="slider-area">
+            <div class="slider-active">
+                <div class="single-slider slider-height d-flex align-items-center">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-5 d-none d-xl-block">
+                                <br>
+                                <br>
+                                <br>
+                                <div class="hero__img hero__img2 " data-animation="fadeInLeft" data-delay="1s">
+                                    <img src="assets/img/aboutus/fal.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-9 text-align">
+                                <div class="hero__caption hero__caption2">
+                                    <h1 data-animation="fadeInRight" data-delay=".4s"> Falia Davina Gustaman </h1>
+                                    <p data-animation="fadeInRight" data-delay=".6s"> "Hello World !" Introducing, I'm falia usually called 
+                                        fali or pal or falia also no problem. I am a 2nd semester student at Bandung State Polytechnic majoring in 
+                                        Computer Engineering and Informatics. I was born in Bandung, August 1, 2003. I have a hobby of cooking, 
+                                        playing games and coding. I aspire to be a Game Developer when I graduate.</p>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
+                                        <a href="contact.html" class="btn hero-btn">Contact Me</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                <br>
+                                    <br>
+                                        <h3 data-animation="fadeInRight" data-delay=".8s">Education Journey :</h3>
+                                            <table class="table table-danger table-striped"  data-animation="fadeInRight" data-delay=".10s">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Year</th>
+                                                <th scope="col-2">Education</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td>2009 - 2015</td>
+                                                <td>SDN CIBEUREUM 7</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">2</th>
+                                                <td>2015 - 2018</td>
+                                                <td>SMPN 7 CIMAHI</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td>2018 - 2021</td>
+                                                <td>SMKN 11 BANDUNG</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">4</th>
+                                                <td>2021 - NOW</td>
+                                                <td>BANDUNG STATE POLYTECHNIC</td>
+                                              </tr>
+                                        </tbody>
+                                    </table>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        <h3>Skill I've Learned</h3>
+                                        <p>
+                                            <div class="col-md-12">
+                                                <div class="skill-level">
+                                                    <p class="h4">HTML</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                            90%
+                                                         </div>
+                                                        </div>
+                                                        <br>
+                                                         <p class="h5">CSS</p>
+                                                        <div class="progress">
+                                                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                                            85%
+                                                         </div>
+                                                         </div>
+                                                         <br>
+                                                         <p class="h5">PHP</p>
+                                                        <div class="progress">
+                                                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%;">
+                                                            88%
+                                                         </div>
+                                                         </div>
+                                                         <br>
+                                                         <p class="h5">JAVA</p>
+                                                        <div class="progress">
+                                                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                                            80%
+                                                         </div>
+                                                         </div>
+                                                         <br>
+                                                         <p class="h5">C/C++</p>
+                                                        <div class="progress">
+                                                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                                            75%
+                                                         </div>
+                                                         </div>
+                                                         <br>
+                                                         <p class="h5">Microsoft Office</p>
+                                                        <div class="progress">
+                                                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                                            85%
+                                                         </div>
+                                                         </div>
+                                                         <br>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                  </div>
+                                      <center>
+                                      <p><h3>Here's a song that i love so much, enjoy!</h3></p>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ixhkaaaj39c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <br>
+                                        <br>  
+                                      <h4 class="h4">Follow me on social networks</h4>
+                                      <div class="container" data-background="black" >
+                                      <a href="https://instagram.com/faliaadavinag" title="" class="fa-icon">
+                                        <i class="fa fa-instagram"></i>
+                                      </a>
+                                      <a href="http://www.twitter.com" title="" class="fa-icon">
+                                        <i class="fa fa-twitter"></i>
+                                      </a>
+                                      <a href="http://www.facebook.com" title="" class="fa-icon">
+                                        <i class="fa fa-facebook"></i>
+                                      </a> 
+                                    </div>
+                                      </center>
+                    </div>
+                </div>
+                 <div class="single-slider slider-height slider-height2 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-5 d-none d-xl-block">
+                                <div class="hero__img hero__img2 " data-animation="fadeInLeft" data-delay="1s">
+                                    <img src="assets/img/hero/about_hero.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-9 ">
+                                <div class="hero__caption hero__caption2">
+                                    <h1 data-animation="fadeInRight" data-delay=".4s">We Collect<br> High Quality Leads</h1>
+                                    <p data-animation="fadeInRight" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
+                                        <a href="contact.php" class="btn hero-btn">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- footer-bottom aera -->
+        <div class="footer-bottom-area footer-bg">
+            <div class="container">
+                <div class="footer-border">
+                     <div class="row d-flex align-items-center">
+                         <div class="col-xl-12 ">
+                             <div class="footer-copy-right text-center">
+                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+      </div>
+       <!-- Footer End-->
+
+   </footer>
+   
+	<!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- Date Picker -->
+        <script src="./assets/js/gijgo.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        
+    </body>
+</html>
